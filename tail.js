@@ -6,16 +6,16 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const tail = function(arr){
-  let head = []
-  for(i = 0; i < arr.length; i++){
-    if(i !== 0){
-      head.push(arr[i])
+const tail = function(arr) {
+  let head = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (i !== 0) {
+      head.push(arr[i]);
     }
   }
   
-  return head
-}
+  return head;
+};
 
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result.length, 2); // ensure we get back two elements
