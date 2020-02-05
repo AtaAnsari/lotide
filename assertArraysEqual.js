@@ -10,4 +10,3 @@ const assertArraysEqual = function(arr1, arr2) {
   return console.log("😀" + `Assertion Passed: [${arr1}] === [${arr2}]`);
 };
 
-assertArraysEqual([1,2,3],[2,2,2])
