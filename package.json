@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@ataansari/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library of handy javascript functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,10 @@
     "type": "git",
     "url": "git+https://github.com/AtaAnsari/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name" : "Ata Ansari"
+    , "email" : "ataulhaq.ansari@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AtaAnsari/lotide/issues"
