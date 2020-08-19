@@ -1,11 +1,10 @@
 const without = function (original, itemsToRemove) {
   let result = []
-  let foundMatch = false
   for (i = 0; i < original.length; i++) {
+    let foundMatch = false
     for (j = 0; j < itemsToRemove.length; j++) {
       if (original[i] === itemsToRemove[j]) {
         foundMatch = true
-
       }
     }
     if (!foundMatch) {
